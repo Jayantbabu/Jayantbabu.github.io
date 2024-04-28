@@ -3,41 +3,162 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section id="home">
-            <h1>Welcome to My Website</h1>
-            <p>This is a basic replica of the Hydejack theme, built from scratch.</p>
-        </section>
-        <section id="about">
-            <h2>About Us</h2>
-            <p>This section is about you or your company.</p>
-        </section>
-        <section id="contact">
-            <h2>Contact Us</h2>
-            <form action="#">
-                <input type="text" placeholder="Your Name" required>
-                <input type="email" placeholder="Your Email" required>
-                <textarea placeholder="Your Message"></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-    <footer>
-        <p>© 2024 My Website. All rights reserved.</p>
-    </footer>
+    <div id="stars-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1;"></div>
+    <!-- First full viewport page with background image -->
+    <div class="page" id="page-1">
+        <div class="content">
+            <h1 class="name">Jayant Babu</h1>
+            <hr class="divider"> <!-- Horizontal line -->
+            <div class="icon-container">
+                <!-- Social media icons -->
+                <!-- LinkedIn -->
+    <a href="https://www.linkedin.com/in/jayantbabu/" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <!-- GitHub -->
+    <a href="https://github.com/Jayantbabu" target="_blank"><i class="fab fa-github"></i></a>
+    <!-- Medium -->
+    <a href="https://medium.com/@jayantbabu2001" target="_blank"><i class="fab fa-medium"></i></a>
+    <!-- Email -->
+    <a href="mailto:jayantbabu2001@gmail.com"><i class="fas fa-envelope"></i></a>
+    <!-- Resume - Assuming it's a PDF file -->
+    <a href="assets/JayantBabuResume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
+            </div>
+            <!-- Downward arrow to indicate scrolling -->
+            <div class="scroll-indicator">⌄</div>
+        </div>
+    </div>
+
+    <!-- Second full viewport page with white background -->
+    <div class="page" id="page-2">
+        <div class="profile-container">
+            <!-- Profile image -->
+            <img src="assets/a993adb4-d1c9-413a-bd35-ce6d507096a3.jpg" alt="Profile Picture" class="profile-picture">
+            
+            <!-- Profile text content -->
+            <div class="profile-content">
+                <h2>Hi I'm Jayant Babu,</h2>
+                <p>I am Jayant Babu, a passionate Data Scientist and Software Developer with a strong foundation in Python, R, Java, and JavaScript, complemented by advanced skills in Machine Learning and React Native.</p>
+                <p>&nbsp;My approach integrates deep technical expertise with a keen interest in solving complex problems through data-driven solutions. I thrive on challenges that require robust analytical skills and innovative thinking, particularly in environmental and technological domains.</p>
+                <p>&nbsp;I am currently working on my undergraduate degree and will be completing my undergraduate degree in May 2024.</p>
+            </div>
+        </div>
+        <div class="resume-button-container">
+            <a href="assets/JayantBabuResume.pdf" target="_blank" class="resume-button">Resume</a>
+        </div>
+        <div class="timeline-container">
+            <!-- Timeline block for Developer position -->
+            <div class="timeline-block">
+                <div class="timeline-dot"></div>
+                <div class="timeline-line"></div> 
+                <span class="timeline-date">May 2020 - Jan 2021</span>
+                <span class="timeline-title">Intern</span>
+                <span class="timeline-company">Tinosys LLC</span>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"></div>
+                <div class="timeline-line"></div> 
+                <span class="timeline-date">Jan 2021 - May 2021</span>
+                <span class="timeline-title">Research Assistant</span>
+                <span class="timeline-company">Brown Experiential Learning</span>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"></div>
+                <div class="timeline-line"></div> 
+                <span class="timeline-date">May 2021 - Aug 2022</span>
+                <span class="timeline-title">Technical Assistant</span>
+                <span class="timeline-company">Virginia Tech Libraries</span>
+            </div>
+            <div class="timeline-block">
+                <div class="timeline-dot"></div>
+                <span class="timeline-date">Aug 2022 - Dec 2022</span>
+                <span class="timeline-title">Developer</span>
+                <span class="timeline-company">Tinosys LLC</span>
+            </div>
+        </div>
+    </div>
+
+    <div class="page" id="page-3">
+        <h2 class="section-title">Core Competencies</h2>
+        <p class="section-subtitle">Here are a few areas where I excel, bringing value through data-driven innovation and expertise.</p>
+    <div class="skills-container">
+        <!-- Skill 1 -->
+        <div class="skill">
+            <div class="skill-icon"><img src="assets/exploration.png" alt="Data Analysis Icon" class = "data-analysis"></div>
+            <h3>Data Analysis</h3>
+            <p>Expert in dissecting complex datasets to unearth insights and drive business strategy.</p>
+        </div>
+        <!-- Skill 2 -->
+        <div class="skill">
+            <div class="skill-icon"><img src="assets/machine-learning.png" alt="Machine Learning Icon" class = "data-analysis"></div>
+            <h3>Machine Learning</h3>
+            <p>Building predictive models and intelligent systems using advanced algorithms and statistical tools.</p>
+        </div>
+        <!-- Skill 3 -->
+        <div class="skill">
+            <div class="skill-icon"><img src="assets/bar-graph.png" alt="Visualiuzation Icon" class = "data-analysis"></div>
+            <h3>Data Visualization</h3>
+            <p>Translating data findings into visual stories that inform and persuade stakeholders.</p>
+        </div>
+        <!-- Skill 4 -->
+        <div class="skill">
+            <div class="skill-icon"><img src="assets/data-science.png" alt="Data Engineering Icon" class = "data-analysis"></div>
+            <h3>Data Engineering</h3>
+            <p>Designing and constructing robust data pipelines for scalable analytics and data processing.</p>
+        </div>
+        </div>
+    </div>
+    </div>
+    </div>
+    </div>
+
+    <div class="page" id="page-4">
+        <h2 class="section-title">Select Projects</h2>
+        <div class="projects-container">
+            <!-- Project 1 Card -->
+            <div class="project-card">
+                <img src="assets/air-quality-sensor.png" class="project-image">
+                <h3>Air Quality Prediction</h3>
+                <p>A sophisticated model developed using XGBoost to forecast the Air Quality Index, finely tuned to minimize error through advanced data preprocessing and hyperparameter optimization.</p>
+                <a href="project-link-1" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/solar-panel.png" alt="Solar Energy Generation Forecasting Project" class="project-image">
+                <h3>Solar Energy Generation Forecasting</h3>
+                <p>Created a comprehensive ensemble model integrating Random Forest, SVM, Gradient Boosting, and Decision Trees, predicting solar energy potential with high accuracy. This initiative underpins effective renewable energy planning and smart investments.</p>
+                <a href="project-link-1" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/internet.png" alt="Deliveroo Web Scraping Tool Project" class="project-image">
+                <h3>Deliveroo Web Scraping Tool</h3>
+                <p>Engineered an innovative web scraping script to navigate complex online data structures, successfully accelerating data processing. This tool crystallizes raw data into valuable insights, enhancing data analytics operations significantly.</p>
+                <a href="https://github.com/Jayantbabu/Deliveroo-UK-Scraping" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/atom.png" alt="React Native Project" class="project-image">
+                <h3>React Native</h3>
+                <p>Engineered a foundational template using React Native, facilitating rapid and efficient creation of both Android and iOS applications. Focused on modular design for easy adaptability across diverse mobile app projects.</p>
+                <a href="https://github.com/Jayantbabu/React-Native-App-Base" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/musical-note.png" alt="Music Genre Classification Project" class="project-image">
+                <h3>Music Genre Classification</h3>
+                <p>Built a unique CNN model that utilizes spectrogram analysis of music tracks for genre classification. The project demonstrates a blend of signal processing and machine learning, focusing on pattern recognition in audio data.</p>
+                <a href="https://github.com/Jayantbabu/MusicGenreClassification" class="project-link">Learn More →</a>
+            </div>
+            <div class="project-card">
+                <img src="assets/resume.png" alt="Resume Classification Project" class="project-image">
+                <h3>Resume Classification</h3>
+                <p>Developed an AI-powered tool that automates the categorization of resumes, enhancing recruitment efficiency. Using natural language processing and machine learning, the tool accurately parses and classifies candidate profiles, streamlining the talent acquisition process and significantly reducing manual screening time.</p>
+                <a href="https://github.com/Jayantbabu/ResumeClassification" class="project-link">Learn More →</a>
+            </div>
+        </div>
+    </div>
+
     <script src="scripts.js"></script>
 </body>
 </html>
