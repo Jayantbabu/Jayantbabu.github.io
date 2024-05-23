@@ -129,8 +129,8 @@ html, body {
 }
 
 .profile-picture {
-    width: 250px; /* Adjust width as needed */
-    height: 250px; /* Adjust height as needed */
+    width: 280px; /* Adjust width as needed */
+    height: 350px; /* Adjust height as needed */
     margin-right: 40px;/* Circular image */
     border: none; /* Ensures the image covers the area without stretching */
 }
