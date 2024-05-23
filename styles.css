@@ -123,14 +123,14 @@ html, body {
 .profile-container {
     display: flex;
     align-items: center;
-    max-width: 800px; /* Adjust the width as needed */
+    max-width: 1200px; /* Adjust the width as needed */
     width: 100%;
     margin-bottom: 4em;
 }
 
 .profile-picture {
-    width: 280px; /* Adjust width as needed */
-    height: 350px; /* Adjust height as needed */
+    width: 380px; /* Adjust width as needed */
+    height: 450px; /* Adjust height as needed */
     margin-right: 40px;/* Circular image */
     border: none; /* Ensures the image covers the area without stretching */
 }
