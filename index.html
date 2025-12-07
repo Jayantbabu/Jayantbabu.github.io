@@ -1,121 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Portfolio</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+  />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <div id="stars-container" style="position: fixed; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: -1;"></div>
-    <!-- First full viewport page with background image -->
-    <div class="page" id="page-1">
-        <div class="content">
-            <h1 class="name">Jayant Babu</h1>
-            <hr class="divider"> <!-- Horizontal line -->
-            <div class="icon-container">
-                <!-- Social media icons -->
-                <!-- LinkedIn -->
-    <a href="https://www.linkedin.com/in/jayantbabu/" target="_blank"><i class="fab fa-linkedin"></i></a>
-    <!-- GitHub -->
-    <a href="https://github.com/Jayantbabu" target="_blank"><i class="fab fa-github"></i></a>
-    <!-- Medium -->
-    <a href="https://medium.com/@jayantbabu2001" target="_blank"><i class="fab fa-medium"></i></a>
-    <!-- Email -->
-    <a href="mailto:jayantbabu2001@gmail.com"><i class="fas fa-envelope"></i></a>
-    <!-- Resume - Assuming it's a PDF file -->
-    <a href="assets/Resume.pdf" target="_blank"><i class="fas fa-file-pdf"></i></a>
-            </div>
-            <!-- Downward arrow to indicate scrolling -->
-            <div class="scroll-indicator">⌄</div>
-        </div>
+  <div id="stars-container"></div>
+
+  <div class="page" id="page-1">
+    <div class="content">
+      <h1 class="name">Jayant Babu</h1>
+      <hr class="divider" />
+      <div class="icon-container">
+        <a href="https://www.linkedin.com/in/jayantbabu/" target="_blank"
+          ><i class="fab fa-linkedin"></i
+        ></a>
+        <a href="https://github.com/Jayantbabu" target="_blank"
+          ><i class="fab fa-github"></i
+        ></a>
+        <a href="https://medium.com/@jayantbabu2001" target="_blank"
+          ><i class="fab fa-medium"></i
+        ></a>
+        <a href="mailto:jayantbabu2001@gmail.com"
+          ><i class="fas fa-envelope"></i
+        ></a>
+        <a href="assets/Resume.pdf" target="_blank"
+          ><i class="fas fa-file-pdf"></i
+        ></a>
+      </div>
     </div>
+    <div class="scroll-indicator">⌄</div>
+  </div>
 
     <!-- Second full viewport page with white background -->
     <div class="page" id="page-2">
         <div class="profile-container">
             <!-- Profile image -->
-            <img src="assets/Screenshot 2024-05-23 at 8.59.30 AM.png" alt="Profile Picture" class="profile-picture">
-            
+            <img src="assets/profilepic.png"
+                alt="Profile Picture"
+                class="profile-picture" />
+
             <!-- Profile text content -->
             <div class="profile-content">
-                <h2>Hi I'm Jayant Babu,</h2>
-                <p>I'm Jayant Babu, a passionate Software Developer and recent Data Science graduate from Arizona State University. I thrive on crafting innovative digital solutions that span web, mobile, and API applications, leveraging my skills in Python, Java, and JavaScript.</p>
-                <p>&nbsp;My journey in tech began with creating robust applications at Tinosys, where I designed and developed mobile solutions that catered specifically to the needs of the oil sector. My role extended beyond development to include setting up and managing complex backend systems on AWS, ensuring seamless data integration and real-time processing.</p>
-                <p>&nbsp;I'm also deeply involved in projects that require a keen eye for data. From developing predictive models for air quality and solar energy to creating interactive dashboards for real-time pandemic tracking, I apply a methodical approach to data analytics and visualization to drive decisions and insights.</p>
-                <p>&nbsp;As a full-stack developer, I'm proficient in using Django/Flask and React Native, which allows me to handle the entire spectrum of application development. My projects demonstrate my ability to merge technical proficiency with creative problem-solving, delivering solutions that are not only effective but also intuitive and user-friendly.</p>
-                <p>&nbsp;Explore my projects and dive into the details of my work on my GitHub via the links provided. I look forward to collaborating on innovative projects that push technological boundaries and lead to real-world applications.</p>
+            <h2>Hi, I'm Jayant Babu</h2>
+            <p>
+                I'm a <strong>Full-Stack Engineer and DevOps Specialist</strong> who loves
+                building scalable systems and elegant code that just works.
+                Over the last few years, I’ve blended <strong>backend logic, cloud automation, and
+                frontend craftsmanship</strong> to create products that are fast,
+                reliable, and genuinely enjoyable to use.
+            </p>
+            <p>
+                At <strong>Explore Digits Inc.</strong>, I’ve grown from
+                <em>Full-Stack Developer</em> to <em>Senior Software Engineer</em>,
+                leading initiatives like migrating and containerizing LimeSurvey on AWS ECS,
+                crafting automation pipelines with CDK and Jenkins,
+                and building an MCP-based ChatGPT assistant that saves analysts
+                more than ten hours each week.
+            </p>
+            <p>
+                Previously, at <strong>Tinosys</strong>, I delivered cloud-based and mobile
+                solutions for the oil and gas industry, including Android and iOS apps,
+                BLE-enabled fitness trackers, and LLM-powered chatbots for internal teams.
+                My work consistently focused on secure APIs, clean automation, and a smooth
+                user experience.
+            </p>
+            <p>
+                I’m passionate about shipping features that matter,
+                mentoring teammates, and bridging the gap between DevOps,
+                backend infrastructure, and UI polish.
+                When I’m not building or debugging something new,
+                you’ll probably find me exploring new frameworks or tweaking my workflow
+                to shave off a few seconds of repetitive work.
+            </p>
             </div>
         </div>
+
         <div class="resume-button-container">
-            <a href="assets/Resume.pdf" target="_blank" class="resume-button">Resume</a>
+            <a href="assets/Resume.pdf" target="_blank" class="resume-button">View Résumé</a>
         </div>
+
         <div class="timeline-container">
-            <!-- Timeline block for Developer position -->
+            <!-- Arizona State University -->
             <div class="timeline-block">
-                <div class="timeline-dot"></div>
-                <div class="timeline-line"></div> 
-                <span class="timeline-date">May 2020 - Jan 2021</span>
-                <span class="timeline-title">Intern</span>
-                <span class="timeline-company">Tinosys</span>
+            <div class="timeline-dot"></div>
+            <span class="timeline-date">Jan 2022 – Aug 2024</span>
+            <span class="timeline-title">B.S. in Data Science</span>
+            <span class="timeline-company">Arizona State University</span>
             </div>
+
+            <!-- Tinosys -->
             <div class="timeline-block">
-                <div class="timeline-dot"></div>
-                <div class="timeline-line"></div> 
-                <span class="timeline-date">Jan 2021 - May 2021</span>
-                <span class="timeline-title">Research Assistant</span>
-                <span class="timeline-company">Brown Experiential Learning</span>
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+            <span class="timeline-date">Jan 2021 – Nov 2024</span>
+            <span class="timeline-title">Software Developer (Contract)</span>
+            <span class="timeline-company">Tinosys</span>
             </div>
+
+            <!-- Explore Digits -->
             <div class="timeline-block">
-                <div class="timeline-dot"></div>
-                <div class="timeline-line"></div> 
-                <span class="timeline-date">May 2021 - Aug 2022</span>
-                <span class="timeline-title">Technical Assistant</span>
-                <span class="timeline-company">Virginia Tech Libraries</span>
+            <div class="timeline-dot"></div>
+            <div class="timeline-line"></div>
+            <span class="timeline-date">Dec 2023 – Present</span>
+            <span class="timeline-title">SDE II / Full-Stack Developer</span>
+            <span class="timeline-company">Explore Digits Inc.</span>
             </div>
-            <div class="timeline-block">
-                <div class="timeline-dot"></div>
-                <span class="timeline-date">Aug 2022 - Dec 2022</span>
-                <span class="timeline-title">Developer</span>
-                <span class="timeline-company">Tinosys</span>
-            </div>
+
         </div>
     </div>
 
     <div class="page" id="page-3">
         <h2 class="section-title">Core Competencies</h2>
-        <p class="section-subtitle">Here are a few areas where I excel, bringing value through data-driven innovation and expertise.</p>
-    <div class="skills-container">
-        <!-- Skill 1 -->
-        <div class="skill">
-            <div class="skill-icon"><img src="assets/exploration.png" alt="Data Analysis Icon" class = "data-analysis"></div>
-            <h3>Data Analysis and Visualization</h3>
-            <p>Experienced in applying statistical analysis and machine learning techniques to develop predictive models and visualizations. Use of tools like Python, R, and visualization libraries (e.g., D3.js, Tableau) to derive insights from data and improve decision-making processes.</p>
+        <p class="section-subtitle">
+            I combine engineering precision with creative problem-solving, from full-stack systems design to DevOps automation and AI-driven tools that make teams more efficient.
+        </p>
+
+        <div class="skills-container">
+
+            <!-- Skill 1 -->
+            <div class="skill">
+            <div class="skill-icon">
+                <img src="assets/devops.png" alt="DevOps and Automation Icon" class="data-analysis">
+            </div>
+            <h3>DevOps & Cloud Automation</h3>
+            <p>
+                Experienced in building reliable deployment pipelines with AWS CDK, CloudFormation, Jenkins, and Docker.
+                Migrated and containerized enterprise platforms on ECS and Fargate, cutting deployment time and improving scalability by 70%.
+            </p>
+            </div>
+
+            <!-- Skill 2 -->
+            <div class="skill">
+            <div class="skill-icon">
+                <img src="assets/coding.png" alt="Backend Development Icon" class="data-analysis">
+            </div>
+            <h3>Full-Stack Development & Architecture</h3>
+            <p >
+                Skilled in creating scalable APIs and responsive applications using Node.js, PHP, React, and TypeScript.
+                Delivered features that improved performance and UX — including custom components, conditional logic, and secure Cognito authentication.
+            </p>
+            </div>
+
+            <!-- Skill 3 -->
+            <div class="skill">
+            <div class="skill-icon">
+                <img src="assets/infrastructure.png" alt="Cloud Infrastructure Icon" class="data-analysis">
+            </div>
+            <h3>Cloud Infrastructure & Monitoring</h3>
+            <p>
+                Designed and optimized AWS environments using services like S3, Lambda, CloudWatch, and API Gateway.
+                Developed CI/CD pipelines and monitoring systems that reduced downtime and improved reliability by 35%.
+            </p>
+            </div>
+
+            <!-- Skill 4 -->
+            <div class="skill">
+            <div class="skill-icon">
+                <img src="assets/chat-bot.png" alt="AI Integration Icon" class="data-analysis">
+            </div>
+            <h3>AI & Intelligent Integrations</h3>
+            <p>
+                Built LangChain-based RAG assistants and ChatGPT integrations that automate research and data retrieval,
+                saving analysts 10+ hours weekly. Passionate about bridging AI with practical DevOps and workflow automation.
+            </p>
+            </div>
+
         </div>
-        <!-- Skill 2 -->
-        <div class="skill">
-            <div class="skill-icon"><img src="assets/programming.png" alt="Machine Learning Icon" class = "data-analysis"></div>
-            <h3>Full Stack Development</h3>
-            <p>Proficient in using major development frameworks such as Django/Flask for backend and React Native for frontend applications, demonstrating the ability to handle both server-side and client-side coding.</p>
-        </div>
-        <!-- Skill 3 -->
-        <div class="skill">
-            <div class="skill-icon"><img src="assets/cloud-database.png" alt="Visualiuzation Icon" class = "data-analysis"></div>
-            <h3>Cloud Infrastructure Management</h3>
-            <p>Skilled in deploying and managing applications on AWS, utilizing services like S3 for storage, Lambda for serverless computing, and API Gateways, showcasing strong competencies in cloud-based architectures and services.</p>
-        </div>
-        <!-- Skill 4 -->
-        <div class="skill">
-            <div class="skill-icon"><img src="assets/agile.png" alt="Data Engineering Icon" class = "data-analysis"></div>
-            <h3>Agile Development</h3>
-            <p>Practiced in Agile methodologies to manage and progress through software development life cycles efficiently, highlighting capabilities in project planning, execution, and adaptation to changing requirements.</p>
-        </div>
-        </div>
-    </div>
-    </div>
-    </div>
     </div>
 
     <div class="page" id="page-4">
